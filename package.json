@@ -1,0 +1,21 @@
+{
+  "name": "vinyl-app-clean",
+  "version": "1.0.0",
+  "main": "App.js",
+  "homepage": "https://yourusername.github.io/vinyl-app-clean",
+  "scripts": {
+    "start": "expo start",
+    "build:web": "expo export:web",
+    "deploy": "expo export:web && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  },
+  "dependencies": {
+    "expo": "^53.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-native": "^0.79.5",
+    "react-native-web": "^0.20.0"
+  }
+}
